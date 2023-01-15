@@ -14,6 +14,14 @@
             Bonjour moi c'est sekongo je suis etudiant  en MIAGE
         </p>
     </div>
+    <button onclick="alert('bonjour')">cliquez poiur saluer</button>
+    <button onclick="(function(){
+        let para=document.createElement('p');
+        para.textContent='paragraphe Ajouter';
+        document.body.appendChild(para);
+
+    })();>ajouter un paragraphe</button>
+    
     
 </body>
 </html>
